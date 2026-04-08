@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+wheels/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Environment variables and secrets
+.env.local
+.env.*.local
+*.env
+secrets.json
+secrets.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Vector store (Chroma persists to disk)
+chroma_db/
+*.chroma
+vectorstore/
+
+# Corpus - raw PDFs are large and should not be committed
+# Commit metadata and processed outputs only
+corpus/raw/*.pdf
+
+# Evaluation outputs - commit ground truth, not generated results
+evaluation/results/*.json
+evaluation/results/*.csv
+
+# LangSmith / LangChain cache
+.langchain.db
+langchain_cache/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Azure
+.azure/
+azuredeploy.parameters.json
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
