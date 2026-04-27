@@ -1,0 +1,45 @@
+documents:
+
+  - insurer: NRMA
+    document_title:
+    document_type: PDS
+    pds_version:
+    effective_date: 2023-09-10
+    accessed_date: 2026-04-27
+    file_path: corpus/raw/nrma_pds.pdf
+    coverage_scope: home
+    in_scope: true
+    notes: Home and Contents
+
+  - insurer: Allianz
+    document_title:
+    document_type: PDS
+    pds_version:
+    effective_date: 2025-04-01
+    accessed_date: 2026-04-27
+    file_path: corpus/raw/allianz_pds.pdf
+    coverage_scope: home
+    in_scope: true
+    notes: Home and Contents
+
+  - insurer: AAMI
+    document_title:
+    document_type: PDS
+    pds_version:
+    effective_date: 2024-10-04
+    accessed_date: 2026-04-27
+    file_path: corpus/raw/aami_pds.pdf
+    coverage_scope: home
+    in_scope: true
+    notes: Building Only
+
+  - insurer: Suncorp
+    document_title:
+    document_type: PDS
+    pds_version:
+    effective_date: 2025-01-31
+    accessed_date: 2026-04-27
+    file_path: corpus/raw/suncorp_pds.pdf
+    coverage_scope: home
+    in_scope: true
+    notes: Home & Contents
