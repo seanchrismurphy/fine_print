@@ -76,6 +76,8 @@ Implement hybrid retrieval combining BM25 and dense embeddings with Reciprocal R
 
 In the frontend, do not surface a generic "similarity score" per chunk. RRF does not produce one — it produces a fused rank from two independent ranked lists. Surface the BM25 rank and dense rank separately, or surface the RRF rank and label it as such. This is a minor frontend detail that will come up if anyone looks closely at the UI, and having a correct answer ready is better than having an incorrect label.
 
+** NOTE ** Will also explore HyDE, multi-query retrieval, and parent-child chunking.
+
 ### Ablation Study
 
 Before moving to Phase 3, run your ground truth set against three retrieval configurations: dense-only, BM25-only, and hybrid RRF. Record faithfulness and answer relevancy for each configuration across all three query types.
