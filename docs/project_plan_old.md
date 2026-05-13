@@ -1,3 +1,8 @@
+# Note - this larger project plan was deprecated when I was offered a job. Have moved to a ten-day plan to get the project up and running, see ten_day_build_plan
+-----------------------
+
+
+
 # Insurance PDS Q&A System — Project Brief (v3)
 
 ---
