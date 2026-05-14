@@ -20,6 +20,8 @@
 - Set up Chroma with persistence to disk, load all embedded chunks with metadata, verify insurer filter works via a metadata query
 - Build the BM25 index using `rank_bm25` across the same chunk set
 - Write a basic RRF function and run a few manual retrieval queries, inspecting the top-5 returned chunks
+- For each document, identify and extract the glossary/definitions section and save as docs/corpus/{insurer}_definitions.json — flat key-value structure, term to definition, lowercased keys
+- (Later) Wire a definition lookup step into the pipeline stub: after generation, scan the answer for known defined terms and append relevant definitions inline
 ---
  
 ## Day 3 — End-to-end RAG pipeline
