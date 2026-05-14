@@ -1,7 +1,7 @@
 documents:
 
   - insurer: NRMA
-    document_title:
+    document_title: Home Insurance Product Disclosure Statement and Policy Handbook
     document_type: PDS
     pds_version:
     effective_date: 2023-09-10
@@ -12,7 +12,7 @@ documents:
     notes: Home and Contents
 
   - insurer: Allianz
-    document_title:
+    document_title: Home Insurance Product Disclosure Statement
     document_type: PDS
     pds_version:
     effective_date: 2025-04-01
@@ -23,7 +23,7 @@ documents:
     notes: Home and Contents
 
   - insurer: AAMI
-    document_title:
+    document_title: Home Building Insurance Product Disclosure Statement
     document_type: PDS
     pds_version:
     effective_date: 2024-10-04
@@ -34,7 +34,7 @@ documents:
     notes: Building Only
 
   - insurer: Suncorp
-    document_title:
+    document_title: Home and Contents Insurance Product Disclosure Statement
     document_type: PDS
     pds_version:
     effective_date: 2025-01-31
